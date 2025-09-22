@@ -10,19 +10,19 @@ const onest = Onest({
 })
 
 export const metadata: Metadata = {
-  title: "Flowly - Work smarter, not harder with automated workflows",
+  title: "OEM DEMO站点 - 跟单猿OEM DEMO站点",
   description:
-    "Automate workflows, streamline tasks, and collaborate seamlessly with Flowly. Boost productivity and efficiency for teams of all sizes.",
-  keywords: "workflow automation, task management, team collaboration, productivity tools",
-  authors: [{ name: "Flowly Team" }],
+    "跟单猿OEM DEMO站点",
+  keywords: "",
+  authors: [{ name: "OEM DEMO站点" }],
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://flowly.com",
-    title: "Flowly - Automated Workflow Solutions",
-    description: "Streamline your team's workflow with Flowly's powerful automation tools.",
-    siteName: "Flowly",
+    url: "https://demo.lichaoyuan.com",
+    title: "OEM DEMO站点",
+    description: "OEM DEMO站点",
+    siteName: "OEM DEMO站点",
   },
   twitter: {
     card: "summary_large_image",
