@@ -5,8 +5,12 @@ import { ArrowRight } from "lucide-react"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import Image from "next/image"
 import Link from "next/link"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 export function HeroSection7() {
+  const isMobile = useIsMobile()
+  const loginUrl = isMobile ? "https://app.lichaoyuan.com/agent-login" : "https://pc.lichaoyuan.com/login"
+  
   return (
     <section className="bg-muted pattern-1 py-16 lg:py-24" aria-labelledby="hero-heading">
       <div className="container px-6 flex flex-col items-center gap-12 lg:gap-16 mx-auto">
@@ -23,7 +27,7 @@ export function HeroSection7() {
               </p>
 
               <div className="flex flex-col lg:flex-row gap-3">
-                <Link href="https://pc.lichaoyuan.com/login">
+                <Link href={loginUrl}>
                   <Button>免费试用</Button>
                   <Button variant="ghost">
                     已支持欧意、币安、芝麻
