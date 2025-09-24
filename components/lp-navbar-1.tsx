@@ -10,7 +10,7 @@ const MENU_ITEMS = [
   { label: "产品功能", href: "#" },
   { label: "用户推荐", href: "#" },
   { label: "产品价格", href: "#" },
-  { label: "FAQ", href: "#" },
+  { label: "常见问题", href: "#" },
 ] as const
 
 interface NavMenuItemsProps {
