@@ -64,7 +64,7 @@ export function LpNavbar1() {
           <div className="md:hidden flex flex-col gap-5 w-full justify-end pb-2.5">
             <NavMenuItems />
             <Link href="https://app.lichaoyuan.com/agent-login">
-              <Button className="w-full">注册/登录</Button>
+              <Button className="w-full">注册 / 登录</Button>
             </Link>
           </div>
         )}
